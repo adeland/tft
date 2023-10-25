@@ -79,6 +79,15 @@ shen = unit("Shen", 4, "Ionia", "Bastion", "Invoker")
 silco = unit("Silco", 4, "Zaun", "Sorcerer", None)
 xayah = unit("xayah", 4, "Ionia", "Vanquisher", None)
 
+#5 cost units
+aatrox = unit("Aatrox", 5, "Darkin", "Slayer", "Juggernaut")
+ahri = unti("Ahri", 5, "Ionia", "Sorcerer", None)
+belveth = unit("Bel'Veth", 5, "Empress", "Void", None)
+gangplank = unit("Gangplank", 5, "Bilgewater", "Gunner", "Reaver King")
+heimerdinger = unit("Heimerdinger", 5, "Piltover", "Technogenius", None)
+ksante = unit("K'sante", 5, "Shurima", "Bastion", None)
+ryze = unit("Ryze", 5, "Wanderer", "Invoker", None)
+sion = unit("Sion", 5, "Noxus", "Brusier", None)
 
 
 #units dictionary with key being the unit name and value being the unit cost
