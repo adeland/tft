@@ -51,6 +51,21 @@ vi = unit("Vi", 2, "Piltover", "Bruiser", None)
 warwick = unit("Warwick", 2, "Zaun", "Juggernaut", "Challenger")
 
 #3 cost units
+darius = unit("Darius", 3, "Noxus", "Juggernaut", "Vanquisher")
+ekko = unit("Ekko", 3, "Zaun", "Piltover", "Rogue")
+jayce = unit("Jayce", 3, "Piltover", "Gunner", None)
+karma = unit("Karma", 3, "Ionia", "Invoker", None)
+katarina = unit("Katarina", 3, "Noxus", "Rogue", None)
+miss_fortune = unit("Miss Fortune", 3, "Bilgewater", "Strategist", None)
+nautilus = unit("Nautilus", 3, "Bilgewater", "Juggernaut", None)
+neeko = unit("Neeko", 3, "Ixtal", "Bastion", None)
+quinn = unit("Quinn", 3, "Demacia", "Slayer", None)
+reksai = unit("Rek'Sai", 3, "Void", "Bruiser", "Slayer")
+sona = unit("Sona", 3, "Demacia", "Multicaster", None)
+taric = unit("Taric", 3, "Targon", "Bastion", "Sorcerer")
+velkoz = unit("Vel'Koz", 3, "Void", "Multicaster", "Sorcerer")
+
+#4 cost units
 
 
 #units dictionary with key being the unit name and value being the unit cost
