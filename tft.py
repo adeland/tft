@@ -40,6 +40,17 @@ ashe = unit("Ashe", 2, "Freljord", "Vanquisher", None)
 galio = unit("Galio", 2, "Demacia", "Invoker", None)
 jinx = unit("Jinx", 2, "Zaun", "Gunner", None)
 kassadin = unit("Kassadin", 2, "Void", "Bastion", None)
+naafiri = unit("Naafiri", 2, "Darkin", "Shurima", "Challenger")
+qiyana = unit("Qiyana", 2, "Ixtal", "Slayer", "Rogue")
+sett = unit("Sett", 2, "Ionia", "Juggernaut", None)
+soraka = unit("Soraka", 2, "Targon", "Invoker", None)
+swain = unit("Swain", 2, "Noxus", "Strategist", "Sorcerer")
+taliyah = unit("Taliyah", 2, "Shurima", "Multicaster", None)
+twisted_fate = unit("Twisted Fate", 2, "Bilgewater", "Multicaster", None)
+vi = unit("Vi", 2, "Piltover", "Bruiser", None)
+warwick = unit("Warwick", 2, "Zaun", "Juggernaut", "Challenger")
+
+#3 cost units
 
 
 #units dictionary with key being the unit name and value being the unit cost
