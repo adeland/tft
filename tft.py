@@ -66,6 +66,19 @@ taric = unit("Taric", 3, "Targon", "Bastion", "Sorcerer")
 velkoz = unit("Vel'Koz", 3, "Void", "Multicaster", "Sorcerer")
 
 #4 cost units
+aphelios = unit("Aphelios", 4, "Targon", "Gunner", None)
+azir = unit("Azir", 4, "Shurima", "Strategist", None)
+fiora = unit("Fiora", 4, "Demacia", "Challenger", None)
+jarvan = unit("Jarvan IV", 4, "Demacia", "Strategist", None)
+kaisa = unit("Kai'sa", 4, "Void", "Challenger", None)
+mordekaiser = unit("Mordekaiser", 4, "Noxus", "Slayer")
+nasus = unit("Nasus", 4, "Shurima", "Juggernaut", None)
+nilah = unit("Nilah", 4, "Bilgewater", "Vanquisher", None)
+sejuani = unit("Sejuani", 4,  "Freljord", "Bruiser", None)
+shen = unit("Shen", 4, "Ionia", "Bastion", "Invoker")
+silco = unit("Silco", 4, "Zaun", "Sorcerer", None)
+xayah = unit("xayah", 4, "Ionia", "Vanquisher", None)
+
 
 
 #units dictionary with key being the unit name and value being the unit cost
