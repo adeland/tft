@@ -9,6 +9,9 @@
 #maybe just randomized winning and losing because it would be too difficult to implement actual battle
 
 #class for each unit and their types
+def initial():
+    print("Welcome to TTFT, Text Teamfight Tactics!")
+
 class unit:
 
     def __init__(self, name, cost, trait1, trait2, trait3):
@@ -98,8 +101,6 @@ class Player():
 def main():
     game = tftgame()
 
-if __name__ = "__main__":
-    main()
 
 #creating all the different units
 #1 cost units
@@ -170,6 +171,16 @@ heimerdinger = unit("Heimerdinger", 5, "Piltover", "Technogenius", None)
 ksante = unit("K'sante", 5, "Shurima", "Bastion", None)
 ryze = unit("Ryze", 5, "Wanderer", "Invoker", None)
 sion = unit("Sion", 5, "Noxus", "Bruiser", None)
+
+if __name__ = "__main__":
+    main()
+    initial()
+    prompt = str(input("Do you want to play?"))
+    if prompt == "Yes" or "yes" or "y":
+        self.name = str(input("Type your username"))
+    else:
+        print("Have a nice day!")
+        quit()
 
 
 
