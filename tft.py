@@ -18,6 +18,88 @@ class unit:
         self.trait1 = trait1
         self.trait2 = trait2
         self.trait3 = trait3
+#class for the game
+class tftgame:
+
+    def __init__(self):
+
+        self.players = []
+        self.round = 0
+        self.unit_pool = {}
+        self.item_pool = {}
+        self.streak = 0
+
+    def add_player(self, player_name):
+
+        player = Player(player_name)
+        self.players.append(Player)
+
+    def initialize_unit_pool(self):
+
+        pass
+
+    def initialize_item_pool(self):
+
+        pass
+
+    def start_round(self):
+
+        self.round += 1
+        self.initialize_unit_pool()
+        self.initialize_item_pool()
+        self.distribute_units()
+        self.distribute_items()
+        self.prepare_players()
+
+    def distribute_units(self):
+
+        pass
+
+    def distribute_items(self):
+
+        pass
+
+    def prepare_players(self):
+        
+        for player in self.players:
+            player.take_actions()
+
+    def check_game_over(self):
+
+        if self.health <= 0:
+            pass
+        pass
+    def play_game(self):
+        
+        while not self.check_game_over():
+            self.start_round()
+            self.battle()
+            self.update_streaks()
+            self.level_up_players()
+
+class Player():
+    
+    def __init__(self, name):
+        self.name = name
+        self.gold = 0
+        self.health = 100
+        self.units = []
+        self.bench = []
+
+    def take_actions(self):
+        pass
+
+    def level_up(self):
+        pass
+    
+    def surrender(self):
+        pass
+    
+def main():
+    game = tftgame()
+
+if __name__ = "__main__":
+    main()
 
 #creating all the different units
 #1 cost units
@@ -81,18 +163,14 @@ xayah = unit("xayah", 4, "Ionia", "Vanquisher", None)
 
 #5 cost units
 aatrox = unit("Aatrox", 5, "Darkin", "Slayer", "Juggernaut")
-ahri = unti("Ahri", 5, "Ionia", "Sorcerer", None)
+ahri = unit("Ahri", 5, "Ionia", "Sorcerer", None)
 belveth = unit("Bel'Veth", 5, "Empress", "Void", None)
 gangplank = unit("Gangplank", 5, "Bilgewater", "Gunner", "Reaver King")
 heimerdinger = unit("Heimerdinger", 5, "Piltover", "Technogenius", None)
 ksante = unit("K'sante", 5, "Shurima", "Bastion", None)
 ryze = unit("Ryze", 5, "Wanderer", "Invoker", None)
-sion = unit("Sion", 5, "Noxus", "Brusier", None)
+sion = unit("Sion", 5, "Noxus", "Bruiser", None)
 
 
-#units dictionary with key being the unit name and value being the unit cost
 
-units = {}
-bench = {}
-curr_gold = 0
-
+#starting off, how many stages will there be? should there be different stages like set 9 or galaxies
